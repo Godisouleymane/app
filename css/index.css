@@ -41,7 +41,7 @@ a {
   box-shadow: 2px 2px 2px black;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .nav_menu {
     position: fixed;
     bottom: 0;
@@ -61,7 +61,6 @@ a {
   
   }
 
- 
 }
 
 .nav_list,
