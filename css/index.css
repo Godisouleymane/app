@@ -61,6 +61,10 @@ a {
   
   }
 
+  #Search {
+    width: 100% !important;
+  }
+
 }
 
 .nav_list,
@@ -155,7 +159,7 @@ a {
 
 .fondu-out {
   opacity: 0;
-  transition: opacity 0.4s ease-out;
+  transition: opacity 0.7s ease-out;
 }
 
 
@@ -183,4 +187,26 @@ a {
   height: 4px;
   margin: 0 3px;
   background-color: #ccc;
+}
+
+.user-button {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+
+}
+
+#Search {
+  background-color: #f5f5f5;
+  height: 40px;
+  border: 1px solid rgb(98, 91, 91);
+  outline: none;
+  padding: 10px;
+  border-radius: 7px;
+  font-style: italic;
+
+}
+
+#Search:focus  {
+  border: 1px solid red;
 }
