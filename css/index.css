@@ -157,3 +157,30 @@ a {
   opacity: 0;
   transition: opacity 0.4s ease-out;
 }
+
+
+.user-profile {
+  border-radius: 100%;
+  width: 120px;
+}
+
+.H2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  margin-top: -70px;
+  flex-direction: column;
+}
+
+.activity-leval li.active {
+  background-color: #2ed8b6;
+}
+
+.activity-leval li {
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  margin: 0 3px;
+  background-color: #ccc;
+}
