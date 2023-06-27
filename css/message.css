@@ -1,0 +1,52 @@
+.cont1 {
+	background: linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);
+    align-items: start !important;
+}
+
+.contact_body {
+    padding: 0.75rem 0 !important;
+    overflow-y: auto;
+    white-space: nowrap;
+}
+
+.card-header {
+    border-radius: 15px 15px 0 0 !important;
+    border-bottom: 0 !important;
+}
+
+#search{
+    border-radius: 15px 0 0 15px !important;
+    background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color:white !important;
+}
+
+#search:focus{
+    box-shadow:none !important;
+  outline:0px !important;
+}
+
+.search_btn{
+    border-radius: 0 15px 15px 0 !important;
+    background-color: rgba(0,0,0,0.3) !important;
+    border:0 !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.contacts{
+    list-style: none;
+    padding: 0;
+}
+.contacts li{
+    width: 100% !important;
+    padding: 5px 10px;
+    margin-bottom: 15px !important;
+}
+
+.user_imgs{
+    height: 70px;
+    width: 70px;
+    border:1.5px solid #f5f6fa;
+
+}
