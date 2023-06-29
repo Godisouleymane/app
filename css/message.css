@@ -260,7 +260,7 @@ color: rgba(255,255,255,0.6);
 
 
 @media screen and (max-width:991px) {
-    .message-card{
-        height: 95vh !important;
+    .message-card, .card{
+        height: 90vh !important;
     }
 }
